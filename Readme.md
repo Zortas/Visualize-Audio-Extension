@@ -1,5 +1,7 @@
 # YouTube Musical Spectrum
 
+> **⚠️ FORK NOTICE:** This is a custom modified version of the original **[YouTube Musical Spectrum](https://github.com/mfcc64/youtube-musical-spectrum)** created by **Muhammad Faiz**. All core functionalities and credits belong to the original author.
+
 YouTube Musical Spectrum is a browser extension powered by [showcqt-js](https://github.com/mfcc64/showcqt-js)
 and [showcqt-element](https://github.com/mfcc64/showcqt-element) that offers audio visualization on your
 YouTube, YT Music, Spotify, and SoundCloud page with nice musical notes. It allows you to see waterfall of spectrogram nicely.
@@ -7,8 +9,8 @@ You can see not only spectrogram of YouTube video but also spectrogram of your m
 
 ## Install
 
-- Google Chrome: [YouTube Musical Spectrum on Chrome Web Store](https://mfcc64.github.io/ytms/#chrome).
-- Mozilla Firefox: [YouTube Musical Spectrum on AMO](https://mfcc64.github.io/ytms/#firefox).
+1. Download ZIP file -> Unzip file 
+2. Manage extensions -> Turn on Developer mode -> Load unpacked -> Choose unzipped folder
 
 ## Screenshots
 
