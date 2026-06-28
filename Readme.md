@@ -1,4 +1,4 @@
-# YouTube Musical Spectrum
+# YouTube Musical Spectrum (Custom Modded Version)
 
 > **⚠️ FORK NOTICE:** This is a custom modified version of the original **[YouTube Musical Spectrum](https://github.com/mfcc64/youtube-musical-spectrum)** created by **Muhammad Faiz**. All core functionalities and credits belong to the original author.
 
