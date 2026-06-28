@@ -26,11 +26,11 @@ import {ShowCQTElement} from "../../showcqt-element@3/showcqt-element.mjs";
     ];
 
     const defaults = {
-        height:     { def: 33, min: 20, max:100 },
-        bar:        { def: 17, min:  1, max: 33 },
-        waterfall:  { def: 33, min:  0, max:100 },
+        height:     { def: 42, min: 20, max:100 },
+        bar:        { def: 3, min:  1, max: 33 },
+        waterfall:  { def: 0, min:  0, max:100 },
         brightness: { def: 17, min:  1, max: 70 },
-        bass:       { def:-30, min:-50, max:  0 },
+        bass:       { def:-21, min:-50, max:  0 },
         speed:      { def:  2, min:  1, max: 12 },
         mic:        { def:  0, min:  0, max: 30 },
         mic_pan:    { def:  0, min:-10, max: 10 },
@@ -47,8 +47,8 @@ import {ShowCQTElement} from "../../showcqt-element@3/showcqt-element.mjs";
         saturation: { def:  0, min:  0, max: 30 },
         hue:        { def:  0, min:-18, max: 19 },
         hue_range:  { def: 18, min:-36, max: 36 },
-        line_mode:  { def:  0, min:  0, max:  4 },
-        line_width: { def:  1, min:  1, max:  3 },
+        line_mode:  { def:  1, min:  0, max:  4 },
+        line_width: { def:  2, min:  1, max:  3 },
         line_color: { def:0xffffff, min:0, max:0xffffff },
         peak_range: { def:  72, min:  0, max:120 },
         peak_color: { def:0xffffff, min:0, max:0xffffff },
@@ -58,9 +58,9 @@ import {ShowCQTElement} from "../../showcqt-element@3/showcqt-element.mjs";
                                min:  0, max:  1 },
         axis:       { def:  0, min:  0, max: axis_list.length - 1 },
 
-	hide_axis:  { def:  0, min:  0, max:  1 }, // <-- THÊM DÒNG NÀY VÀO ĐÂY (nhớ có dấu phẩy ở dòng trên nếu cần)
-	hide_bars:  { def:  0, min:  0, max:  1 },
-        custom_cut: { def:  3, min:  0, max: 50 } // def (default), max 50 tương đương 5.0vw
+		hide_axis:  { def:  1, min:  0, max:  1 }, // <-- THÊM DÒNG NÀY VÀO ĐÂY (nhớ có dấu phẩy ở dòng trên nếu cần)
+		hide_bars:  { def:  1, min:  0, max:  1 },
+        custom_cut: { def:  17, min:  0, max: 50 } // def (default), max 50 tương đương 5.0vw
     };
 
     const opt_prefix = "__youtube_musical_spectrum_opt_";
